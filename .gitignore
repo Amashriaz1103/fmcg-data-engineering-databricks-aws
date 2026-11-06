@@ -1,0 +1,30 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments (if created later)
+venv/
+.venv/
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.databrickscfg
+
+# Databricks local configuration
+.databricks/
+
+# Logs and temporary files
+*.log
+logs/
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
